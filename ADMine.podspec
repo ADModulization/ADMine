@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "naibin" => "binjiayou66@163.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "git@github.com:ADModulization/ADMine.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/ADModulization/ADMine.git", :tag => s.version.to_s }
 
   s.source_files  = "ADMine/ADMine/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
