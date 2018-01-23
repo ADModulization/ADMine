@@ -1,5 +1,5 @@
 //
-//  ADMineViewController.h
+//  ADMineTarget.h
 //  ADMine
 //
 //  Created by Andy on 23/01/2018.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ADMineViewController : UIViewController
+@interface ADMineTarget : NSObject
+
+- (NSString *)changeBackgroundColor:(NSDictionary *)info;
 
 @end

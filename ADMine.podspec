@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADMine"
-  s.version      = "3"
+  s.version      = "4"
   s.summary      = "ADMine."
   s.description  = <<-DESC
                     this is ADMine

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A13995272016DA9800447313 /* ADMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13995262016DA9800447313 /* ADMineViewController.m */; };
 		A139952A2016DAA100447313 /* ADMineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13995292016DAA100447313 /* ADMineDetailViewController.m */; };
+		A13995302016EEB500447313 /* ADMineTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = A139952F2016EEB500447313 /* ADMineTarget.m */; };
 		A1C8F8682011E0C900AD9643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8F8672011E0C900AD9643 /* AppDelegate.m */; };
 		A1C8F8702011E0C900AD9643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C8F86F2011E0C900AD9643 /* Assets.xcassets */; };
 		A1C8F8732011E0C900AD9643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C8F8712011E0C900AD9643 /* LaunchScreen.storyboard */; };
@@ -24,6 +25,8 @@
 		A13995262016DA9800447313 /* ADMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMineViewController.m; sourceTree = "<group>"; };
 		A13995282016DAA100447313 /* ADMineDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMineDetailViewController.h; sourceTree = "<group>"; };
 		A13995292016DAA100447313 /* ADMineDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMineDetailViewController.m; sourceTree = "<group>"; };
+		A139952E2016EEB500447313 /* ADMineTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMineTarget.h; sourceTree = "<group>"; };
+		A139952F2016EEB500447313 /* ADMineTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMineTarget.m; sourceTree = "<group>"; };
 		A1C8F8632011E0C900AD9643 /* ADMine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADMine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C8F8662011E0C900AD9643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1C8F8672011E0C900AD9643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				A13995262016DA9800447313 /* ADMineViewController.m */,
 				A13995282016DAA100447313 /* ADMineDetailViewController.h */,
 				A13995292016DAA100447313 /* ADMineDetailViewController.m */,
+				A139952E2016EEB500447313 /* ADMineTarget.h */,
+				A139952F2016EEB500447313 /* ADMineTarget.m */,
 			);
 			path = ADMine;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1C8F8762011E0C900AD9643 /* main.m in Sources */,
+				A13995302016EEB500447313 /* ADMineTarget.m in Sources */,
 				A13995272016DA9800447313 /* ADMineViewController.m in Sources */,
 				A139952A2016DAA100447313 /* ADMineDetailViewController.m in Sources */,
 				A1C8F8682011E0C900AD9643 /* AppDelegate.m in Sources */,
