@@ -25,6 +25,17 @@
     self.label.frame = CGRectMake(0, 200, self.view.frame.size.width, 30);
 }
 
+- (NSString *)changeBackgroundColor:(NSDictionary *)info
+{
+    if ([[info objectForKey:@"backgroundColor"] isKindOfClass:[UIColor class]]) {
+        [UIView animateWithDuration:3 animations:^{
+            self.view.backgroundColor = [info objectForKey:@"backgroundColor"];
+        }];
+        return @"我正在变色，快来看吧！";
+    }
+    return @"请给告诉我变成什么颜色";
+}
+
 - (NSString *)title
 {
     return @"我的";

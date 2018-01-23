@@ -10,4 +10,6 @@
 
 @interface ADMineViewController : UIViewController
 
+- (NSString *)changeBackgroundColor:(NSDictionary *)info;
+
 @end
